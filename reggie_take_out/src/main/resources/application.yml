@@ -7,14 +7,14 @@ spring:
     druid:
       driver-class-name: com.mysql.cj.jdbc.Driver
       url: jdbc:mysql://localhost:3306/reggie?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
-      username: root
-      password: 471530812
+      username: # 数据库账号
+      password: # 数据密码
   mail:
     host: smtp.qq.com
     protocol: smtp
     default-encoding: UTF-8
-    username: wmmayy@qq.com
-    password: cmjjkyzyoexkdfac
+    username: # 你自己的邮箱号
+    password: # 激活码
     test-connection: true
     properties:
       mail:
